@@ -1,0 +1,25 @@
+{
+    "name": "exploitfate/yii2-newrelic",
+    "description": "Yii2 NewRelic package",
+    "type": "project",
+    "license": "MIT",
+    "keywords": ["yii2", "newrelic"],
+    "authors": [
+        {
+            "name": "exploitfate",
+            "email": "exploitfate@yahoo.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "exploitfate\\yii\\newrelic\\": ""
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
